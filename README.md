@@ -13,16 +13,16 @@
  * _--gpu_ can determine the number of gpu device
  * _--path_ gives the model save path
  
- Net       Acc
+ Net       GAT       GCN       GraphSAGE    SimpleGCN      GraphUnet 
  
- GAT       83%
+ Acc       83%       82%       81.2%        82.5%          81.4%
  
- GCN       82%
+       
  
- GraphSAGE 81.2%
  
- SimpleGCN 82.5%
  
- GraphUnet 81.4%
+ 
+ 
+
  
  
