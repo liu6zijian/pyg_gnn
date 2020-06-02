@@ -1,8 +1,8 @@
 # pyg_gnn
  Some gnn methods (GAT, GCN, GraphSAGE, simpleGCN, GraphUnet) with pytorch geometric framework.
 ## files
- These {}.pth files are saved model parameters with highest test accuracy.
- `node_classify.py` is the main function for node classification on <cora>.
+ These {}.pth files are saved model parameters with highest test accuracy,
+ `node_classify.py` is the main function for node classification on cora,
  `test_env.py` is the environment test function for pyG framework.
 ## dependency
  pytorch 1.4.0 (here we don't have cuda 10 or 9.2, we choose cpu version)
