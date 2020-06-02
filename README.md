@@ -6,12 +6,19 @@
  `test_env.py` is the environment test function for pyG framework.
 ## dependency
  pytorch 1.4.0
+ 
  torchvision 0.5.0
+ 
  https://pytorch-geometric.readthedocs.io/en/latest/notes/installation.html
+ 
  ```pip install torch-scatter==latest+${CUDA}``` -f https://pytorch-geometric.com/whl/torch-1.5.0.html
+ 
  ```pip install torch-sparse==latest+${CUDA}``` -f https://pytorch-geometric.com/whl/torch-1.5.0.html
+ 
  ```pip install torch-cluster==latest+${CUDA}``` -f https://pytorch-geometric.com/whl/torch-1.5.0.html
+ 
  ```pip install torch-spline-conv==latest+${CUDA}``` -f https://pytorch-geometric.com/whl/torch-1.5.0.html
+ 
  ```python setup.py install``` or ```pip install torch-geometric```
 
 
