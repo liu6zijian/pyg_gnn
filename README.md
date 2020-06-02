@@ -5,11 +5,13 @@
  `node_classify.py` is the main function for node classification on <cora>.
  `test_env.py` is the environment test function for pyG framework.
 ## dependency
- pytorch 1.4.0
+ pytorch 1.4.0 (here we don't have cuda 10 or 9.2, we choose cpu version)
  
  torchvision 0.5.0
  
  https://pytorch-geometric.readthedocs.io/en/latest/notes/installation.html
+ 
+ `${CUDA} = cu92, cu100 or cpu`
  
  ```pip install torch-scatter==latest+${CUDA}``` -f https://pytorch-geometric.com/whl/torch-1.4.0.html
  
