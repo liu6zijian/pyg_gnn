@@ -8,7 +8,9 @@
  pytorch 1.4.0 (here we don't have cuda 10 or 9.2, we choose cpu version)
  
  torchvision 0.5.0
- 
+ ```pip install torch==1.4.0+cpu torchvision==0.5.0+cpu``` -f https://download.pytorch.org/whl/torch_stable.html
+
+
  https://pytorch-geometric.readthedocs.io/en/latest/notes/installation.html
  
  `${CUDA} = cu92, cu100 or cpu`
@@ -22,7 +24,7 @@
  ```pip install torch-spline-conv==latest+${CUDA}``` -f https://pytorch-geometric.com/whl/torch-1.4.0.html
  
  ```python setup.py install``` or ```pip install torch-geometric```
-
+## code running
  The train code is: ```python node_classify.py --train True --model gat --gpu 0 --path best_{}.pth``` 
  
  The test code is: ```python node_classify.py --train False --model gat --gpu 0 --path best_{}.pth``` 
