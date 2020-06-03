@@ -15,7 +15,7 @@ import argparse
 # parameters setting
 parser = argparse.ArgumentParser()
 parser.add_argument("--path", default="best_{}.pth", type=str, help="model save path")
-parser.add_argument("--model", default="GraphUnet", type=str, help="select model (gat, gcn, graphsage, sgcn, GraphUnet)")
+parser.add_argument("--model", default="gat", type=str, help="select model (gat, gcn, graphsage, sgcn, GraphUnet)")
 parser.add_argument("--interval", default=50.0, type=float, help="display and test interval")
 parser.add_argument("--max_epoch", default=500, type=int, help="max epoch")
 parser.add_argument("--lr", default=1e-2, type=float, help="learning rate")
